@@ -1,0 +1,70 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 14px;
+    background-color: lightslategray;
+
+}
+
+.container{
+    background: white;
+    padding: 25px;
+    width: 500px;
+    margin: 50px auto 0;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container h2{
+    font-size: 22px;
+    line-height: 24px;
+    padding: 25px;
+    text-align: center;
+}
+
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px  auto;
+}
+
+.name{
+    width: 45% ;
+    padding: 4px 0 4px 20px;
+    
+}
+
+.input-name span{
+    margin-left: 20px;
+}
+
+.vijay{
+    width: 100%;
+    padding: 4px 0 4px 20px;
+    
+ 
+}
+
+.input-name i{
+position: absolute;
+    font-size: 15px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+}
+
+.button{
+    background-color:blue;
+    text-align: center;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
